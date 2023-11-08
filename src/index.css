@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+/* Hide the vertical scrollbar */
+::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  /* Hide the horizontal scrollbar */
+  ::-webkit-scrollbar {
+    height: 0;
+  }
+  
+  /* You can also style the scrollbar thumb (optional) */
+  ::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
+  
+  .agbalumo{
+    font-family: "Agbalumo", sans-serif;
+  }
+  .glass {
+   /* From https://css.glass */
+background: rgba(69, 66, 66, 0.249);
+box-shadow: 0 4px 20px rgba(97, 89, 89, 0.263);
+backdrop-filter: blur(19px);
+-webkit-backdrop-filter: blur(13.3px);
+}
+
+.react-player {
+  height: 100% !important;
+  border-radius: 10px;
+  position: absolute;
+  margin: auto;
+  width: 100% !important;
+}
